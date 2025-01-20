@@ -1,0 +1,6 @@
+@TesprakKPL_HostAddress = http://localhost:5194
+
+GET {{TesprakKPL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
