@@ -31,3 +31,4 @@ C:\Konteng\Tesprak\KPL\TesprakKPL\TesprakKPL\obj\Debug\net8.0\refint\TesprakKPL.
 C:\Konteng\Tesprak\KPL\TesprakKPL\TesprakKPL\obj\Debug\net8.0\TesprakKPL.pdb
 C:\Konteng\Tesprak\KPL\TesprakKPL\TesprakKPL\obj\Debug\net8.0\TesprakKPL.genruntimeconfig.cache
 C:\Konteng\Tesprak\KPL\TesprakKPL\TesprakKPL\obj\Debug\net8.0\ref\TesprakKPL.dll
+C:\Konteng\Tesprak\KPL\TesprakKPL\TesprakKPL\obj\Debug\net8.0\TesprakKPL.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TesprakKPL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38d437ee5a3610b9ecb81fb5477b9634b085d443")]
 [assembly: System.Reflection.AssemblyProductAttribute("TesprakKPL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TesprakKPL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

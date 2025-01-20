@@ -2,6 +2,7 @@
 {
     public class Student
     {
+        //Class Student Sesuai Soal
         public string? Customer_name { get; set; }
         public string? Product_name { get; set; }
         public int Quantity { get; set; }
@@ -10,6 +11,8 @@
         public string? Shipping_address { get; set; }
         public string? Status { get; set; }
 
+
+        //2 Jenis Constructor
         public Student() { }
 
         public Student(string? customer_name, string? product_name, int quantity, int total_price, string order_date, string? shipping_address, string? status)

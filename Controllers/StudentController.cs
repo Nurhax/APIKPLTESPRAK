@@ -2,6 +2,7 @@
 
 namespace TesprakKPL.Controllers
 {
+    //API Untuk Students
     [Route("api/[controller]")]
     [ApiController]
     public class StudentController : ControllerBase
@@ -14,31 +15,31 @@ namespace TesprakKPL.Controllers
             new Student("Iqbal Nurhaq", "PS4", 4, 3000000, "2025-01-20", "JL Pegangsaan Timur 24", "Delivered"),
             new Student("Iqbal Nurhaq", "PS3", 5, 2000000, "2025-01-20", "JL Pegangsaan Timur 25", "Pending")
         };
-
+        //API GET
         [HttpGet]
         public IEnumerable<Student> GetStudents()
         {
             return _students;
         }
-
+        //API GET berdasarkan ID
         [HttpGet("{id}")]
         public Student GetStudent(int id)
         {
             return _students[id];
         }
-
+        //API Post untuk insert
         [HttpPost]
         public void PostStudent([FromBody] Student student)
         {
             _students.Add(student);
         }
-
+        //API PUT untuk edit
         [HttpPut("{id}")]
         public void UpdateStudent(int id, [FromBody] Student student)
         {
             _students[id] = student;
         }
-
+        //API Delete untuk delete data
         [HttpDelete]
         public void DeleteStudent(int id)
         {
